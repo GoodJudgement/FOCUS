@@ -10,10 +10,11 @@
 
 ## Rank forecasters
 
-1. write in the config
-   a) fileName
-   b) numberOfForecasters
-   c) forecasterIndex
+Write in the config
+
+a. fileName
+b. numberOfForecasters
+c. forecasterIndex
 
 Ex.: if the forecasters are identified from #44 to #58, forecasterIndex should be 44 and numberOfForecasters should be 15.
 
