@@ -33,7 +33,7 @@ The output file will contain:
 * meanRank
 * medianRank
 
-### Ranking method
+### Ranking method : recusrive mean|median
 
 The way the ranking is calculated is by:
 
