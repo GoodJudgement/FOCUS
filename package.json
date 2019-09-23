@@ -1,0 +1,36 @@
+{
+  "name": "focus-socring-method",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "rank": "ts-node rank/rank.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.8",
+    "axios": "^0.19.0",
+    "bluebird": "^3.5.5",
+    "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "csvtojson": "^2.0.10",
+    "graphql-request": "^1.8.2",
+    "json2csv": "^4.5.2",
+    "mocha": "^6.2.0",
+    "node-fetch": "^2.6.0",
+    "ts-node-register": "^1.0.0",
+    "typescript": "^3.5.3",
+    "ts-node": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.27",
+    "tslint-config-prettier": "^1.18.0"
+  },
+  "jshintConfig": {
+    "esversion": 9
+  }
+}
