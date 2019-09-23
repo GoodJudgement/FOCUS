@@ -41,7 +41,7 @@ The way the ranking is calculated is by:
 2. The lowest scoring forecaster is officially ranked and removed from the remaining set
 3. Repeat step 1-3 with remaining forecasters, and don't take into account the forecasted ranked of forecasters already ranked
 
-The rationale is that if the mean|median forecaster thought a forecaster was a poor forecaster, this forecaster is probably also bad at predicting who's a great forecaster.
+The rationale is that if the mean|median rank meta-forecasters think a forecaster is, is a poor, this forecaster is probably also bad at meta-forecasting who's a great forecaster, so we recursively remove them from our meta-forecasts (ie. meta-forecasting == forecasting who will be the best forecasters). 
 
 ## Code convention
 
