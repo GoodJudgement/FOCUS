@@ -19,17 +19,21 @@ Write in the config:
 Ex.: if the forecasters are identified from #44 to #58, forecasterIndex should be 44 and numberOfForecasters should be 15.
 
 The input file should contain the following columns:
--ID
--number of the forecaster
--actual
--the actual score of the forecaster as determined by the FOCUS scoring method
--a column for how each forecaster ranked that forecaster
+
+* ID
+* number of the forecaster
+* actual
+* the actual score of the forecaster as determined by the FOCUS scoring method
+* a column for how each forecaster ranked that forecaster
 
 The output file will contain:
--ID
--actual
--meanRank
--medianRank
+
+* ID
+* actual
+* meanRank
+* medianRank
+
+### Ranking method
 
 The way the ranking is calculated is by:
 
