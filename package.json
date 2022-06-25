@@ -21,7 +21,7 @@
     "graphql-request": "^1.8.2",
     "json2csv": "^4.5.2",
     "mocha": "^6.2.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "ts-node-register": "^1.0.0",
     "typescript": "^3.5.3",
     "ts-node": "^8.3.0"
